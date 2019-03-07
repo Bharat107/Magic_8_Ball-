@@ -15,8 +15,8 @@ public class Magic8Ball {
         //intialization phase
         keyboard = new Scanner(System.in);
         do {
-            System.out.println("Hello, I am the Magic8Ball!\nWhat answers do you seek from me?");
-            System.out.println("Ask me any yes or no question to learn about your fate!");
+            System.out.println("Hello, I am the Magic8Ball!\nDo you want to learn your fate?");
+            System.out.println("Ask me any yes or no questions and I will answer them!");
             question = keyboard.nextLine();
             testing = (int) (Math.random() * 100);
             System.out.println(question);

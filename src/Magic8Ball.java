@@ -59,16 +59,21 @@ public class Magic8Ball {
             } while (!Choice.equalsIgnoreCase("y") && !Choice.equalsIgnoreCase("n"));
         }while(play);
     }
-
-
-
-
-
-
-
-
-
 }
+/*
+10 different answers: 5 positive and 5 negative
+0-10: Signs point to yes.
+11-20: signs point to no.
+21-30: It is certain.
+31-40: Don't count on it.
+41-50: As I see it, yes.
+51-60: My sources say no.
+61-70: Without a doubt.
+71-80: Very doubtful.
+81-90: You may rely on it.
+91-100: My reply is no.
+*/
+
 
 
 
